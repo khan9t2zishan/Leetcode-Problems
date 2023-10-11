@@ -2,7 +2,7 @@
 
 Author : Zishan Khan
 Problem : Reverse Integer
-Difficulty : Easy
+Difficulty : Medium
 Problem Link : https://leetcode.com/problems/reverse-integer/
 
 */
