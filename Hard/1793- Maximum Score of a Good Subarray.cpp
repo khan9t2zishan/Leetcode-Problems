@@ -1,9 +1,8 @@
 /*
 
 Author : Zishan Khan
-Date : 22/10/2023
 Problem : Maximum Score of a Good Subarray
-Difficulty : Medium
+Difficulty : Hard
 Problem Link : https://leetcode.com/problems/maximum-score-of-a-good-subarray/description/?envType=daily-question&envId=2023-10-22
 
 */
