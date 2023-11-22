@@ -1,7 +1,6 @@
 /*
 
 Author : Zishan Khan 
-Date : 22/11/2023
 Problem : Diagonal Traverse II
 Difficulty : Medium
 Problem Link : https://leetcode.com/problems/diagonal-traverse-ii/description/?envType=daily-question&envId=2023-11-22
