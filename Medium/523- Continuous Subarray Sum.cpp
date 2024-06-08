@@ -1,0 +1,23 @@
+/*
+
+Author : Zishan Khan
+Problem : Continuous Subarray Sum
+Difficulty : Medium
+Problem Link : https://leetcode.com/problems/continuous-subarray-sum/description/?envType=daily-question&envId=2024-06-08
+
+*/
+
+class Solution {
+public:
+   bool checkSubarraySum(vector<int>& nums, int k) {
+        int n=nums.size(), pretemp=0, sum=0;
+        map<int,int> mods;
+        for (int i=0; i<n; i++){
+            sum = (sum + nums[i]) % k;  // [edited]
+            if (mods[sum]) return true;
+            mods[pretemp] ++;
+            pretemp = sum;
+        }
+        return false;
+    }
+};
